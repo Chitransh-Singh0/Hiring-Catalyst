@@ -12,7 +12,7 @@ const SearchInput = ({ placeholder, icon, value, setValue, styles }) => {
         setValue(e.target.value);
     }
 
-    const clearInput = () => setValue("")
+    const clearInput = () => setValue("");
 
     return <div className={`flex w-full md:w-1/3 items-center ${styles}`}>
         {icon}
